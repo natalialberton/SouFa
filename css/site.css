@@ -1,0 +1,200 @@
+@CHARSET "UTF-8";
+	/*Configuração geral do corpo da página*/
+	body {
+		margin: 0 auto;
+		font-family: Freemono, monospace, "Century Gothic";
+	}
+	
+	/*Cabeçalho*/
+	header {
+		height: 170px;
+		background-color: #ab8d74;
+	}
+	
+	header img {
+		float: left;
+		height: 130px;
+		width: 130px;
+		margin: 10px;
+		margin-left: 60px
+	}
+	
+	h1 {
+		float: left;
+		text-align: center;
+		margin: 0px 25%;
+		padding-top: 50px;
+		color: #dbc0a9;
+		font-size: 60px;
+	}
+	
+	/*Menu de navegação*/
+	nav {
+		clear: both;
+		width: 90%;
+		margin: 0px auto;
+		height: 55px;
+	}
+	
+	nav a {
+		color: #dbc0a9;
+		font-weight: bold;
+		text-decoration: none;
+		text-align: center;
+	}
+	
+	nav .opcao {
+		float: left;
+		width: 22.5%;
+		background-color: #ab8d74;
+		padding: 10px 0;
+		margin: 0 1%;
+		font-size: 26px;
+		border-radius: 0 0 10px 10px;
+	}
+	
+	nav .opcao:hover {
+		background-color: #997f6a;
+	}
+	
+	/*Área geral --- section*/
+	section {
+		clear: both;
+		min-height: 650px;
+		width: 100%;
+		margin-top: 0px;
+	}
+	
+	/*Rodapé*/
+	footer {
+		background-color: #ad8058;
+		color: #d9b596;
+		font-weight: bold;
+		text-align: center;
+		padding: 10px;
+	}
+	
+	/*Configurações do conteúdo inicial + tabela*/
+	.inicio {
+		float: left;
+		margin: 70px 90px;
+		width: 45%;
+		background-color: #d9b596;
+		border-radius: 10px;
+    }
+	
+	section h2 {
+		text-align: center;
+		font-size: 60px;
+		margin-bottom: 5px;
+	}
+	
+	.contexto {
+		padding: 10px 40px;
+		text-align: justify;
+		font-size: 20px;
+		font-weight: 200;
+	}
+	
+	.estiloTabela {
+		float: left;
+        width: 40%;
+		margin: 80px auto;
+		text-align: center;
+	}
+	
+	.tituloTabela {
+		text-align: center;
+		font-size: 30px;
+		font-weight: bold;
+		color: #dbc0a9;
+		padding: 5px;
+		border: transparent;
+		border-radius: 5px;
+	}
+	
+	tr, td, th {
+		border: 1px solid #fff;
+		border-radius: 5px;
+		padding: 10px;
+	}
+	
+	tr, td {
+		font-size: 15px;
+	}
+	
+	tr:nth-child(even) {
+		background-color: #ab8d74;
+	}
+	
+	tr:nth-child(odd) {
+		background-color: #997f6a;
+	}
+	
+	/*Configurações do conteúdo restante da página*/
+	section h3 {
+		text-align: left;
+		font-size: 40px;
+		margin-bottom: 5px;
+	}
+	
+	section p {
+		font-size: 18px;
+		text-align: justify;
+	}
+	
+	section img {
+		border-radius: 10px;
+		max-width: 40%;
+		max-height: 500px;
+		margin: 50px auto;
+	}
+	
+	.conteudo {
+		margin: 40px auto;
+	}
+	
+	.texto {
+		clear: both;
+		float: left;
+		margin: 40px 80px;
+		width: 50%;
+	}
+
+	/*Configurações da página faleconosco*/
+	.paragrafoFC {
+		text-align: center;
+		margin: 30px;
+	}
+	
+	
+	.faleConosco {
+		width: 500px;
+		margin: 0px auto;
+		font-weight: bold;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	
+	.faleConosco input, .faleconosco textarea, .faleconosco select {
+		margin: 5px auto;
+		width: 100%;
+		padding: 5px 0;
+	}
+	
+	.faleConosco textarea {
+		height: 100px;
+		resize: none;
+	}
+	
+	.faleConosco th {
+		background-color: #fff;
+	}
+	
+	.faleConosco button {
+		width: 20%;
+		margin: 1 20%;
+		background-color: #d9b596;
+		font-weight: bold;
+		font-size: 16px;
+	}
